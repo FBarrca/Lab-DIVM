@@ -1,9 +1,9 @@
-function [A01,A02,A03,A04,A05,A06] = plotRobot(theta1,theta2,theta3,theta4,theta5,theta6, info)
+function [A01,A02,A03,A04,A05,A06] = plotRobot(v_theta, info)
 
 % Valores inicales de las variables
 % Es el ángulo de la articulación del eje xi-1 al eje xi respecto del eje zi-1 (utilizando la regla de la mano derecha)
 
-
+theta1 = v_theta(1); theta2 = v_theta(2); theta3 = v_theta(3); theta4 = v_theta(4); theta5 = v_theta(5); theta6 = v_theta(6);
 % if true
 %     forcePopupFigure()
 % end

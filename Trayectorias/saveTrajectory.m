@@ -11,5 +11,6 @@ function [H_A01,H_A02,H_A03,H_A04,H_A05,H_A06] = saveTrajectory(A01,A02,A03,A04,
     plotTrajectory(H_A04);
     plotTrajectory(H_A05);
     plotTrajectory(H_A06);
+    drawnow
 end
 
